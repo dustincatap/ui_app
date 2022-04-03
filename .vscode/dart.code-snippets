@@ -1,0 +1,14 @@
+{
+    "Devices": {
+        "prefix": "devices",
+        "body": [
+          "// Computed according to https://material.io/blog/device-metrics",
+          "const pixel6 = Device(size: Size(420.56, 934.58), name: 'pixel6_portrait');",
+          "const pixel6Landscape = Device(size: Size(934.58, 420.56), name: 'pixel6_landscape');",
+          "const iphone8 = Device(size: Size(368.1, 654.72), name: 'iphone8_portrait');",
+          "const iphone8Landscape = Device(size: Size(654.72, 368.1), name: 'iphone8_landscape');",
+          "const devices = [pixel6, pixel6Landscape, iphone8, iphone8Landscape];"
+        ],
+        "description": "Devices"
+      }
+}
